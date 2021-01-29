@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="Cv_Blok.Admin.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+
+    <link href="Admin.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="Menu">
+        <div class="divKutu">CV Admin</div>        
+        <div class="divMenu">
+            <ul>
+             <a href="Hakkimda.aspx"><li>Hakkımda</li></a>
+                
+               <a href="AdminDeneyim.aspx"><li>Deneyimlerim</li></a>
+                
+               <a href="AdminEgitim.aspx"><li>Eğitim Hayatım</li></a>
+                
+               <a href="AdminYetenek.aspx"><li>Yeteneklerim</li></a>
+                
+               <a href="AdminHobi.aspx"><li>Hobilerim</li></a> 
+                
+               <a href="AdminKonferans.aspx"><li>Konferanslar</li></a> 
+
+                <a href="AdminSifre.aspx"><li>Şifre</li></a> 
+            </ul>
+        </div>
+    </div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>
